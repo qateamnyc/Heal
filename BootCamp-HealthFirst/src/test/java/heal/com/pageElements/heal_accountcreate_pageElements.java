@@ -44,6 +44,7 @@ public class heal_accountcreate_pageElements {
 	@FindBy(xpath = "//*[@id=\"ReactAppWrapper-wide\"]/div[1]/div/div[2]/div/div[2]/div/span[1]")
 	public WebElement TickEmailMe ;
 
-
+	@FindBy(xpath = "//*[@id=\"ReactAppWrapper-wide\"]/div[1]/div/div[2]/div/div[4]/button")
+	public WebElement sendcode;
 
 }
