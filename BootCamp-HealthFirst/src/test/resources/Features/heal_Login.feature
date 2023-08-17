@@ -1,13 +1,14 @@
 Feature: Heal Log IN Feature
 @sanity @chrome
 Scenario Outline: Verify User Login with Valid Credentials
-Given User in on the CVS homepage
-When I click on dropdown sign on 
-And I click on sign in button 
-Then I enter valid <Email Address>
-And click continue
+Given User in on the healthfirst homepage
+When I click on login 
+And I click on member portal from the dropdown menu
+Then I enter valid <User Name>
 And I enter valid <Password>
-Then I click submit button
+Then I click login button
+And i click on skip for now
+Then i click no thanks
 Examples:
-| Email Address                  | Password    |
-| qa.barbie.oppenheimer@gmail.com| Success2023 |
+| User Name   | Password    |
+| nikitanarula| 17August@2023 |
