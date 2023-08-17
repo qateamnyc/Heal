@@ -10,8 +10,8 @@ Then I click on continue
 And i enter first name <name>
 Then i enter date of birth <DOB>
 And i enter mobile phone number <mobile number>
-And i enter email adress <nikita@gmail.com>
-And i reenter email address to confirm <nikita@gmail.com>
+And i enter email adress <email address>
+And i reenter email address to confirm <email address>
 Then i click checkbox I acknowledge the term of use
 Then i click on send code button
 Examples:

@@ -1,5 +1,8 @@
 package heal.com.runner;
 
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
@@ -9,9 +12,11 @@ public class Heal_Runner {
 						features = {"src/test/resources/Features"}, glue= {"heal.com.stepDefinitions"},
 						tags = "@chrome", monochrome = true)
 	
-	public class RunCucumberTest extends AbstractTestNGCucumberTests
-	{
-		
+	public class RunCucumberTest extends AbstractTestNGCucumberTests{
+	
+	
+	}
+
 	}
 	
 	
@@ -19,4 +24,4 @@ public class Heal_Runner {
 	
 	
 
-}
+

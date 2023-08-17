@@ -39,7 +39,7 @@ public class heal_accountcreate_pageElements {
 	public WebElement selectackkowlgecheckbox ;
 
 	@FindBy(xpath = "//*[@id=\"ReactAppWrapper-wide\"]/div/div/div[2]/div[1]/div[3]/button")
-	public WebElement clickcontinue ;
+	public WebElement clickcontinueagain ;
 	
 	@FindBy(xpath = "//*[@id=\"ReactAppWrapper-wide\"]/div[1]/div/div[2]/div/div[2]/div/span[1]")
 	public WebElement TickEmailMe ;
