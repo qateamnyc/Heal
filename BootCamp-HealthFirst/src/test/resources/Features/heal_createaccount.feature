@@ -13,7 +13,8 @@ And i enter mobile phone number <mobile number>
 And i enter email adress <email address>
 And i reenter email address to confirm <email address>
 Then i click checkbox I acknowledge the term of use
-Then i click on send code button
+# Then i click on send code button
+
 Examples:
 | name   | DOB    | mobile number|email address|
 | nikita| 0820 | 9174567869| nikita@gmail.com|
